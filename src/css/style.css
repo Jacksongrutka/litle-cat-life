@@ -1,0 +1,107 @@
+html{
+    font-size: 62.5%;
+    height: 100vh;
+}
+.button{
+    background-color: #fba54c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.button:hover{
+    color: #fff;
+    background-color:transparent;
+}
+.button p{
+    font-size: 2rem;
+}
+ header , footer{
+    background: url(../images/fundo-header.jpg) no-repeat center center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+header .title-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+header .title-logo a{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header .navegation{
+    display: flex;
+    align-items:center;
+    gap: 25px;
+    margin-right: 70px;
+    padding-top: 30px;
+}
+header .navegation nav ul{
+    display: flex;
+    gap: 40px;
+}
+header .navegation nav ul li a{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+header .navegation nav ul li a:hover{
+    color: #fba54c ;
+}
+header .navegation .icons{
+    display: flex;
+    padding-left: 25px;
+    gap: 15px;
+    font-size: 2rem;
+    color: #fff;
+}
+header .navegation .icons a{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+header .navegation .icons a:hover{
+    color: #fba54c;
+}
+header .navegation .icons .shop-cart{
+    padding-left: 20px ;
+}
+
+footer{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+footer .footer-container{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer .social , footer .contato , footer .endereco{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    height: 100px;
+    margin-top: 40px;
+    align-self: flex-start;
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .social a , footer .contato p , footer .endereco p{
+    line-height: 30px;
+}
+footer .social a , footer .contato a{
+    padding: 5px;
+    color: #fff;
+}
