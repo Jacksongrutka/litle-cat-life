@@ -1,0 +1,211 @@
+.index{
+    display: grid;
+    grid: 
+    "container-titulo container-titulo container-titulo"
+    "caminhas         brinquedos       acessorios"
+    "info info info" / 1fr 1fr 1fr ;
+    padding: 50px;
+    gap: 20px;
+}
+.index .container-video{
+    grid-area: container-titulo;
+    position: relative;
+    text-align: center;
+}
+.index .container-video .video{
+    width: 100%;
+}
+.index .container-video .container-titulo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.index .container-video .container-titulo h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.index .container-titulo .texto{
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.index .caminhas, .index .brinquedos, .index .acessorios{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.index .caminhas::after ,.index .brinquedos::after ,.index .acessorios::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background-color: rgba(0,0,0,0.4);
+}
+.index .caminhas a ,.index .brinquedos a,.index .acessorios a{
+    color: #fba54c;
+    font-weight: 700;
+    font-size: 4rem;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+.index .caminhas a:hover ,.index .brinquedos a:hover,.index .acessorios a:hover{
+    color: #fff;
+}
+.index .caminhas{
+    grid-area: caminhas; 
+    background: url(../images/cama-gato.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+.index .brinquedos{
+    grid-area: brinquedos;
+    background: url(../images/brinquedo-gato.jpg) no-repeat center center;
+    background-size: cover;
+}
+.index .acessorios{
+    grid-area: acessorios;
+    background: url(../images/acessorio-gato.webp) no-repeat center center;
+    background-size: cover;
+}
+.index .info{
+    grid-area: info;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.index .info h2{
+    font-size: 6rem;
+    color: #fba54c;
+}
+.index .info h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #696969;
+}
+.index .info p{
+    font-size: 2rem;
+    text-align: center;
+    max-width: 600px;
+    line-height: 30px;
+    color: #696969;
+}
+@media(max-width:1024px){
+    .index .container-video .container-titulo h1{
+        font-size: 4rem;
+    }
+}
+@media(max-width:900px){
+    .index{
+        grid:
+        "container-titulo"
+        "caminhas"
+        "brinquedos"
+        "acessorios"
+        "info" / 1fr;
+    }
+    .index .container-video{
+        height: 60vh;
+        background: url(../images/floresta-escura.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .index .container-video .video{
+        display: none;
+    }
+    .index .container-video .container-titulo h1{
+        font-size: 5rem;
+    }
+    .index .container-titulo .texto{
+        font-size: 3rem;
+        max-width: 300px;
+    }
+    .index .container-titulo a{
+        font-size: 3rem;
+    }
+    .index .caminhas a ,.index .brinquedos a,.index .acessorios a{
+        font-size: 6rem;
+    }
+    .index .info{
+        height: 50vh;
+        text-align: center;
+    }
+    .index .info h2{
+        font-size: 7rem;
+        color: #fba54c;
+    }
+    .index .info h4{
+        font-size: 4rem;
+        font-weight: 400;
+        color: #696969;
+    }
+    .index .info p{
+        font-size: 2rem;
+        max-width: 600px;
+        color: #696969;
+    }
+    .index .info .button p{
+        font-size: 3rem;
+        color: #000;
+    }
+}
+@media(max-width:425px){
+    .index .container-video{
+        height: 30vh;
+        background: url(../images/floresta-escura.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .index .container-video .video{
+        display: none;
+    }
+    .index .container-video .container-titulo h1{
+        font-size: 3rem;
+    }
+    .index .container-titulo .texto{
+        font-size: 2rem;
+        max-width: 150px;
+    }
+    .index .container-titulo a{
+        font-size: 2rem;
+    }
+    .index .caminhas ,.index .brinquedos, .index .acessorios{
+        height: 30vh;
+    }
+    .index .caminhas a ,.index .brinquedos a,.index .acessorios a{
+        font-size: 3rem;
+    }
+    .index .info{
+        height: 40vh;
+        text-align: center;
+    }
+    .index .info h2{
+        font-size: 3rem;
+        color: #fba54c;
+    }
+    .index .info h4{
+        font-size: 2rem;
+        font-weight: 400;
+        color: #696969;
+    }
+    .index .info p{
+        font-size: 1.5rem;
+        max-width: 300px;
+        color: #696969;
+    }
+    .index .info .button p{
+        font-size: 2rem;
+        color: #000;
+    }
+}
