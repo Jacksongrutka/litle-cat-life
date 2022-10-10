@@ -74,6 +74,9 @@
     }
 }
 @media(max-width:425px){
+    header .title-logo{
+        margin: 50px 0 0 0;
+    }
     header .title-logo img{
         width: 50px;
     }

@@ -173,9 +173,11 @@
     }
     .index .container-video .container-titulo h1{
         font-size: 2rem;
+        padding-bottom: 10px;
     }
     .index .container-titulo .texto{
         font-size: 1rem;
+        padding-bottom: 10px;
         max-width: 150px;
     }
     .index .container-titulo a{
