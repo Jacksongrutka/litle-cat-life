@@ -15,7 +15,7 @@
 }
 @media(max-width:900px){
     header{
-        height: 20vh;
+        height: 350px;
         flex-direction: column;
     }
     header .title-logo{
@@ -23,7 +23,7 @@
 
     }
     header .title-logo a{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     header .navegation{
         flex-direction:row-reverse;
@@ -34,7 +34,7 @@
         margin-right: 0;
     }
     header .navegation .icons{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-right: 0;
         padding-bottom: 40px;
     }
@@ -78,13 +78,13 @@
         width: 50px;
     }
     header .title-logo a{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     header .navegation nav ul li a{
         font-size: 4rem;
     }
     header .navegation .icons{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     footer{
         height:350px;

@@ -127,38 +127,38 @@
         display: none;
     }
     .index .container-video .container-titulo h1{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .index .container-titulo .texto{
-        font-size: 3rem;
+        font-size: 2rem;
         max-width: 300px;
     }
     .index .container-titulo a{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .index .caminhas a ,.index .brinquedos a,.index .acessorios a{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .index .info{
         height: 50vh;
         text-align: center;
     }
     .index .info h2{
-        font-size: 7rem;
+        font-size: 5rem;
         color: #fba54c;
     }
     .index .info h4{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 400;
         color: #696969;
     }
     .index .info p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         max-width: 600px;
         color: #696969;
     }
     .index .info .button p{
-        font-size: 3rem;
+        font-size: 2rem;
         color: #000;
     }
 }
@@ -172,41 +172,41 @@
         display: none;
     }
     .index .container-video .container-titulo h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .index .container-titulo .texto{
-        font-size: 2rem;
+        font-size: 1rem;
         max-width: 150px;
     }
     .index .container-titulo a{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .index .caminhas ,.index .brinquedos, .index .acessorios{
         height: 30vh;
     }
     .index .caminhas a ,.index .brinquedos a,.index .acessorios a{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .index .info{
         height: 40vh;
         text-align: center;
     }
     .index .info h2{
-        font-size: 3rem;
+        font-size: 2rem;
         color: #fba54c;
     }
     .index .info h4{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 400;
         color: #696969;
     }
     .index .info p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         max-width: 300px;
         color: #696969;
     }
     .index .info .button p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #000;
     }
 }
