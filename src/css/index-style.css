@@ -116,6 +116,7 @@
         "brinquedos"
         "acessorios"
         "info" / 1fr;
+        padding: 10px;
     }
     .index .container-video{
         height: 60vh;
