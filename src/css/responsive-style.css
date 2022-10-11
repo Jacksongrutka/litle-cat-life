@@ -15,11 +15,11 @@
 }
 @media(max-width:900px){
     header{
-        height: 350px;
+        height: 200px;
         flex-direction: column;
     }
     header .title-logo{
-        margin-top: 150px;
+        margin-top: 10px;
 
     }
     header .title-logo a{
@@ -59,11 +59,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 300px;
-        gap: 150px;
+        margin-top: 100px;
+        gap: 100px;
     }
     header .navegation nav ul li a{
-        font-size: 8rem;
+        font-size: 6rem;
         color: #fba54c;
     }
     header .navegation .menu{
