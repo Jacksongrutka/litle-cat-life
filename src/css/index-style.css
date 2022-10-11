@@ -205,6 +205,7 @@
     .index .info p{
         font-size: 1rem;
         max-width: 300px;
+        line-height: 20px;
         color: #696969;
     }
     .index .info .button p{
