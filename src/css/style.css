@@ -3,19 +3,6 @@ html{
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
-.button{
-    background-color: #fba54c;
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: 0.3s ease-in-out;
-}
-.button:hover{
-    color: #fff;
-    background-color:transparent;
-}
-.button a{
-    font-size: 2rem;
-}
  header , footer{
     background: url(../images/fundo-header.jpg) no-repeat center center;
     background-size: cover;

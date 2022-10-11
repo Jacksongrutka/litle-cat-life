@@ -1,0 +1,62 @@
+.container-sobre{
+    display: grid;
+    height: 100vh;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap:10px
+}
+.container-sobre .container-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-sobre .container-info .info{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+.container-sobre .container-info .info h2{
+    color: #fba54c;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.container-sobre .container-info .info p{
+    color: #696969;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.container-sobre .container-info .info .button{
+    background-color: #fba54c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.container-sobre .container-info .info .button:hover{
+    color: #fff;
+    background-color:transparent;
+}
+.container-sobre .container-info .info .button a{
+    font-size: 2rem;
+}
+.container-image{
+    background: url(../images/gatinho-sobre.jpg) no-repeat center center;
+    background-size: cover;
+}
+@media(max-width:900px){
+    .container-sobre{
+        height: auto;
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .container-sobre .container-info{
+        justify-content: flex-start;
+        padding: 40px 15px ;
+    }
+    .container-sobre .container-info .info{
+        max-width: 100vh;
+    }
+}

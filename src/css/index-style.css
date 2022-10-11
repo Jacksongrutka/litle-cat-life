@@ -7,6 +7,19 @@
     padding: 50px;
     gap: 20px;
 }
+.index .button{
+    background-color: #fba54c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.index .button:hover{
+    color: #fff;
+    background-color:transparent;
+}
+.index .button a{
+    font-size: 2rem;
+}
 .index .container-video{
     grid-area: container-titulo;
     position: relative;
