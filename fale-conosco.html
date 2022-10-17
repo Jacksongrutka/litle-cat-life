@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>sobre</title>
+    <title>contato</title>
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/fale-conosco-style.css">
     <link rel="stylesheet" href="./src/css/responsive-style.css">
-    <link rel="stylesheet" href="./src/css/sobre-style.css">
 </head>
 <body>
     <header>
@@ -68,18 +68,41 @@
             
         </div>
     </header>
-    <main class="container-sobre">
-        <div class="container-info">
+    <main class="fale-conosco">
+        <div class="info-container">
             <div class="info">
-                <h2>sobre nós</h2>
-                <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim para adicionar o seu conteúdo e trocar fontes. Sinta-se à vontade para arrastar e soltar em qualquer lugar da página. Sou um ótimo lugar para você contar sua história aos seus clientes.</p>
-                <p>Este é um ótimo espaço para escrever um texto longo sobre a sua empresa e seus serviços. Você pode usar esse espaço para detalhar sua empresa. Fale sobre a sua equipe e sobre os serviços prestados por você. Conte aos seus visitantes sobre como teve a idéia de iniciar o seu negócio e o que o torna diferente de seus concorrentes. Faça com que sua empresa se destaque e mostre quem você é.</p>
-                <a href="fale-conosco.html" class="button">
-                    <p>Contate-nos</p>    
-                </a>
+                <div class="texto-container">
+                    <h2>LitleCatLife</h2>
+                    <div class="endereco">
+                        <p>av.meu endereço , 98</p>
+                        <p>Porto alegre - RS - 12345-678</p>
+                        <p>(51)34567890</p>
+                        <p>info@meusite.com</p>
+                    </div>
+                    <div class="atendimento">
+                        <p><span>Atendimento ao cliente</span></p>
+                        <p>(51)34567890</p>
+                        <p>info@meusite.com</p>
+                    </div>
+                </div>
+                <div class="formulario-container">
+                    <form class="formulario" action="index.html" method="get">
+                        <input type="text" nome="nome" placeholder="Nome" id="nome">
+                        <input type="text" name="e-mail" placeholder="e-mail" id="e-mail">
+                        <input type="text" name="telefone" placeholder="telefone" id="telefone">
+                        <textarea name="texto" id="texto-form" cols="30" rows="10" value="Digite sua mensagem aqui"></textarea>
+                        <input class="btn-enviar" type="submit" value="enviar">
+                    </form>
+                    
+                </div>
             </div>
         </div>
-        <div class="container-image"></div>
+        <div class="container-image">
+            <img src="./src/images/floresta-coracao.jpg" alt="uma imagem de uma floresta em formato de coraçao">
+        </div>
+        <div class="container-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9770.63436715292!2d-51.161182416633096!3d-30.024206194219268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1665952022699!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     <footer>
         <div class="footer-container">

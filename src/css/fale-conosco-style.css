@@ -1,0 +1,111 @@
+.fale-conosco{
+    display: grid;
+    grid:   "info image" 80vh
+            "mapa mapa" 40vh / 1fr 1fr;
+    padding: 100px;
+}
+.fale-conosco .info-container{
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+.fale-conosco .info-container .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    max-width: 400px;
+}
+.fale-conosco .info-container .info .texto-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fale-conosco .info-container .info .texto-container h2{
+    font-size: 4rem;
+    color: var(--cor-titulo, orange);
+    text-transform: uppercase;
+}
+.fale-conosco .info-container .info .texto-container p{
+    color: var(--cor-texto, black);
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+.fale-conosco .info-container .info .texto-container p span{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-titulo, orange);
+}
+.fale-conosco .info-container .info .formulario-container{
+    width: 100%;
+}
+.fale-conosco .info-container .info .formulario-container .formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fale-conosco .info-container .info .formulario-container .formulario input{
+    border-color: var(--cor-titulo , orange);
+    border-style: solid;
+    height: 30px;
+}
+.fale-conosco .info-container .info .formulario-container .formulario textarea{
+    border-color: var(--cor-titulo);
+}
+.fale-conosco .info-container .info .formulario-container .formulario .btn-enviar{
+    align-self: flex-end;
+    background-color: #fba54c;
+    padding: 5px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.fale-conosco .info-container .info .formulario-container .formulario .btn-enviar:hover{
+    color: #fff;
+    background-color:#000;
+    border: none;
+}
+.fale-conosco .container-image{
+    grid-area: image;
+    
+}
+.fale-conosco .container-image img{
+    height: 100%;
+}
+.fale-conosco .container-mapa{
+    grid-area: mapa;
+}
+@media(max-width:1024px){
+    .fale-conosco{
+        padding: px;
+    }
+    .fale-conosco .info-container{
+        margin-left: 0;
+    }
+}
+@media(max-width:900px){
+    .fale-conosco{
+        grid:"image" 50vh
+             "info"
+             "mapa" 40vh;
+        padding: 0;
+    }
+    .fale-conosco .info-container{
+        margin-top: 30px;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .fale-conosco .info-container .info{
+        text-align: center;
+        max-width: 400px;
+    }
+    .fale-conosco .info-container .info .texto-container{
+        padding-bottom: 30px;
+    }
+    .fale-conosco .info-container .info .formulario-container .formulario .btn-enviar{
+        align-self: center;
+    }
+}
