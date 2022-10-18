@@ -48,7 +48,7 @@ header .navegation .hamburguer{
     height: 4px;
     background-color: #fff;
     position: relative;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 header .hamburguer:after,
 header .hamburguer:before{
@@ -58,7 +58,7 @@ header .hamburguer:before{
     position: absolute;
     background-color: #fff;
     display: block;
-    transition: 0.7s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 header .hamburguer::after{
     top: -10px;
